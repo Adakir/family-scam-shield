@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Family Scam Shield",
+    "slug": "family-scam-shield",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "family-scam-shield",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.familyscamshield.app"
+    },
+    "android": {
+      "package": "com.familyscamshield.app"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
